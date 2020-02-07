@@ -167,7 +167,7 @@ void loop() {
       for (int i=0;i<203;i++){
         float temperatureC = getTemperatureC();
           if(temperatureC > 25){
-             delay(5000);
+             delay(20000);
           }
         int wait = durationLied1[i] * songspeed;
         tone(buzzer,notesLied1[i],wait);
